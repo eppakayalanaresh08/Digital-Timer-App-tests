@@ -1,0 +1,94 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to left, #cffcf1, #cffcf1);
+  height: 100vh;
+}
+
+.card-bg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.digital-heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+}
+.timer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+}
+
+.bg-timer-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  width: 70%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-reset-paused {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-container {
+  display: flex;
+}
+
+.center-time {
+  background-color: #ffffff;
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-icon {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  width: 30px;
+}
+
+.setTimeLimit {
+  color: #0f172a;
+  font-size: 13px;
+  font-family: 'Roboto';
+}
+
+.add-button-container {
+  display: flex;
+}
+
+.number-increment {
+  background-color: #00d9f5;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 5px;
+}
+
+.button-add {
+  background-color: transparent;
+  border: none;
+  font-weight: 500;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
